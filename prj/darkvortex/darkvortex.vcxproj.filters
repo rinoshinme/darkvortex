@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="layers">
+      <UniqueIdentifier>{b3e7793a-230e-44b3-b2fb-1e97b9a93c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{e59b46cf-ce36-4b01-90f7-c6050d5175e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{3a4b6a0c-817a-46bd-bac1-4c1492a842c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples">
+      <UniqueIdentifier>{e3fa6072-2e24-4c67-93be-88ed0bd831ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="layers\connected_layer.cpp">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layers\activation_layer.cpp">
+      <Filter>layers</Filter>
+    </ClCompile>
+    <ClCompile Include="math\blas.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\random.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\activations.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp" />
+    <ClCompile Include="utils\image.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\image_helper.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\common.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\classifier.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\option_list.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="network.h" />
+    <ClInclude Include="layers\connected_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\activation_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\convolutional_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layers\softmax_layer.h">
+      <Filter>layers</Filter>
+    </ClInclude>
+    <ClInclude Include="math\blas.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\col2im.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\im2col.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\random.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\activations.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\common.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="layer.h" />
+    <ClInclude Include="utils\image.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\image_helper.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\data.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\classifier.h">
+      <Filter>examples</Filter>
+    </ClInclude>
+    <ClInclude Include="darkvortex.h" />
+    <ClInclude Include="utils\option_list.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\list.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="all.h" />
+    <ClInclude Include="utils\parser.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
