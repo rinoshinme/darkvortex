@@ -94,3 +94,7 @@ void ConnectedLayer::Backward(Network& network)
 
 }
 
+void ConnectedLayer::InitWeightAndBias()
+{
+
+}

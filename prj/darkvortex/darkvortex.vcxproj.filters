@@ -50,6 +50,9 @@
       <Filter>utils</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="math\gemm.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="network.h" />
@@ -109,6 +112,9 @@
     <ClInclude Include="all.h" />
     <ClInclude Include="utils\parser.h">
       <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="math\gemm.h">
+      <Filter>math</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

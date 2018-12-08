@@ -134,6 +134,7 @@
     <ClCompile Include="layers\connected_layer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="math\blas.cpp" />
+    <ClCompile Include="math\gemm.cpp" />
     <ClCompile Include="math\random.cpp" />
     <ClCompile Include="network.cpp" />
     <ClCompile Include="utils\activations.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="layers\softmax_layer.h" />
     <ClInclude Include="math\blas.h" />
     <ClInclude Include="math\col2im.h" />
+    <ClInclude Include="math\gemm.h" />
     <ClInclude Include="math\im2col.h" />
     <ClInclude Include="math\random.h" />
     <ClInclude Include="network.h" />
